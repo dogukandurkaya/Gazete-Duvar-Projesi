@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.menus {
+    width: 100%;
+}
+
+.top-navbar {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(49, 39, 39);
+    justify-content: space-between;
+}
+
+.bottom-menu {
+    width: 1600px;
+    padding-top: 50px;
+}
+
+.ara {
+    display: none;
+}
+
+.logo a,
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media {
+    padding-right: 150px;
+}
+
+.social-media a {
+    padding-right: 10px;
+}
+
+.logo a img {
+    width: 120px;
+    height: 50px;
+}
+
+.social-media a img {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.droptown {
+    width: 150px;
+    height: 50px;
+}
+
+.cards {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+.card-text {
+    height: 75px;
+    font-size: large;
+}
+
+.cardsandslider {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#carouselExampleCaptions {
+    width: 900px;
+    height: 500px;
+}
+
+.kart {
+    float: right;
+}
+
+.sliders {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sliders #carouselExampleIndicators {
+    width: 580px;
+}
+
+.sliders #carouselExampleIndicators1 {
+    width: 580px;
+    float: right;
+}
+
+.sliders #carouselExampleIndicators3 {
+    width: 580px;
+    float: right;
+}
+
+.sliders #carouselExampleIndicators4 {
+    width: 580px;
+    float: right;
+}
+
+.sliders #carouselExampleIndicators5 {
+    width: 580px;
+    float: right;
+}
+
+.sliders #carouselExampleIndicators6 {
+    width: 580px;
+    float: right;
+}
+
+.readnew {
+    display: flex;
+    width: 1250px;
+    margin: auto;
+    justify-content: left;
+}
+
+.cokokunanlar {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.div-readnew {
+    display: flex;
+    width: 1250px;
+    margin: auto;
+    justify-content: left;
+}
+
+.div-readnew div {
+    margin-left: 20px;
+}
+
+.div-readnew i {
+    margin-top: 120px;
+}
+
+.new-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.yazar {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.writers {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.writer h5 {
+    margin-left: 20px;
+}
+
+.writer p {
+    width: 200px;
+}
+
+.writer img {
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.writers a i {
+    margin-top: 120px;
+}
+
+.baslik {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid white;
+    color: black;
+    padding: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(49, 39, 39);
+}
+
+.footer p a img {
+    width: 120px;
+    height: 30px;
+}
+
+.row a img {
+    width: 100px;
+    height: 50px;
+}
+
+.last-link {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.last-link a {
+    text-decoration: none;
+}
+
+.social-media p {
+    color: white;
+}
+
+hr {
+    width: 1200px;
+    margin: auto;
+    color: black;
+}
+
+.hr {
+    width: 580px;
+    margin: auto;
+    color: black;
+}
